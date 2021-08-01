@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.topnav{
+    width: 100%;
+    background-color: #131921;
+    height: 5;
+}
+.topnav .logo img{
+    height: 25px;
+    background-color: transparent;
+}
+/* .topnav .logo img:hover{
+    border: 1px solid white;
+} */
+.map-icon p{
+    font-size: 10px;
+}
+.map-icon .text{
+    color: rgb(187, 179, 179);
+}
+.input form select{
+    font-size: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: 0.1px solid rgb(179, 174, 174);
+}
+.input .input-group input{
+    height: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    left: 0;
+    top: 0;
+
+}
+.input .input-group{
+    width: 750px;
+}
+.dropdown img{
+    height: 13px;
+    width: auto;
+}
+.account p{
+    font-size: 10px;
+}
+.account .text{
+    color: rgb(187, 179, 179);
+}
+
+.navbar{
+    background-color: #232f3e;
+    height: 39px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 11px;
+    margin-right: 5px;
+}
+.navbar img{
+    width: 300px;
+    height: 37px
+}
+
+.bottom-nav small{
+    font-size: 11px;
+}
+.bottom-nav .mobile{
+    cursor: pointer;
+}
+.main-body .sidebar{
+    width: 14%;
+}
+.main-body .sidebar p{
+    font-size: 11px;
+    cursor: pointer;
+}
+.main-body .sidebar p:hover{
+    color: #f08409;
+}
+.main-body .sidebar input{
+    cursor: pointer;
+}
+.review .checked{
+    color: orange;
+    margin-left: -1px;
+}
+.review .unchecked{
+    color: rgb(161, 146, 118);
+    margin-left: -1px;
+}
+
+.main-body .main{
+    width: 80%;
+    background-color: ivory;
+    margin: 0 3%;
+}
+
+.explore p{
+    color: #E47911;
+    font-size: 13px;
+}
+.explore small{
+    font-size: 10px;
+    line-height: 0px;
+}
+
+footer .back{
+    background-color:  #162a3b;
+}
+footer .back small{
+    font-size: 11px;
+}
+footer .get{
+    background-color: #232F3E;
+}
+footer .get .fw-bold{
+    font-size: 13px;
+}
+footer .get .small{
+    font-size: 11px;
+    line-height: 5px;
+}
+.get .f1{
+    border-bottom: 1px solid rgba(134, 131, 131, 0.3);
+
+}
+
+.get .f2 img{
+    width: 76px;
+    height: 23px;
+}
+.get .f2 button{
+    font-size: 11px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(233, 226, 226, 0.5);
+}
+.get .f2 .aa a{
+    color: rgba(250, 250, 250, 0.836);
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 5px;
+}
+footer .last-footer{
+    background-color: #131A22;
+}
+footer .last-footer{
+    line-height: 5px;
+}
+footer .last-footer p .fw-bolds{
+    font-size: 9px;
+    color: rgba(250, 250, 250, 0.863);
+    line-height: 0;
+    
+}
+footer .last-footer p small{
+    font-size: 8px;
+    color: rgba(250, 250, 250, 0.644);
+}
