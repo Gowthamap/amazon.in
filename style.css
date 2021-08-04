@@ -12,7 +12,7 @@ body{
     height: 5;
 }
 .topnav .logo img{
-    height: 25px;
+    height: 20px;
     background-color: transparent;
 }
 /* .topnav .logo img:hover{
@@ -39,7 +39,7 @@ body{
 
 }
 .input .input-group{
-    width: 750px;
+    width: 700px;
 }
 .dropdown img{
     height: 13px;
@@ -58,16 +58,16 @@ body{
 }
 .navbar ul li a{
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     margin-right: 5px;
 }
 .navbar img{
     width: 300px;
-    height: 37px
+    height: 37px;
 }
 
 .bottom-nav small{
-    font-size: 11px;
+    font-size: 9px;
 }
 .bottom-nav .mobile{
     cursor: pointer;
@@ -95,9 +95,75 @@ body{
 }
 
 .main-body .main{
-    width: 80%;
-    background-color: ivory;
-    margin: 0 3%;
+    width: 84%;
+    margin: 0 1%;
+}
+.main-body .main .one{
+    margin: 0 2%;
+}
+.main-body .main .top-offers{
+    margin: 0 2%;
+}
+
+.main-body .main .main-balance{
+    background-color: #EAEAEA;
+}
+.main-body .main .main-balance .first{
+    margin: 0 2%;
+    background-color: white;
+}
+.main-body .main .main-balance .second{
+    margin: 0 2%;
+    background-color: white;
+}
+.main-body .main  .main-balance .second p{
+    font-size: small;
+}
+.over{
+    border: 1px solid rgba(134, 131, 131, 0.3);
+    border-radius: 7px;
+}
+.over p{
+    font-size: 12px;
+}
+.over p span{
+    color: #c45500;
+    font-weight: bold;
+}
+.best-seller small{
+    background-color: #E67A00;
+    color: white;
+    font-size: 10px;
+    margin-left: -11px;
+}
+.best-seller img{
+    width: 200px;
+    height: 190px;
+}
+.best-seller .font{
+    font-size: 13px;
+    
+}
+.best-seller .text-muted{
+    font-size: 11px;
+}
+.best-seller .star .text,.text-gold{
+    color: #fa9939;
+    margin-right: -5px;
+}
+.best-seller .star span{
+    color: rgb(5, 55, 70);
+}
+.best-seller .fulfill{
+    font-size: 10px;
+    background-color: darkslategrey;
+    color: white;
+}
+.best-seller .free{
+    font-size: 0.6rem;
+}
+.best-seller .detail{
+    color: rgb(5, 55, 70);
 }
 
 .explore p{
@@ -107,6 +173,14 @@ body{
 .explore small{
     font-size: 10px;
     line-height: 0px;
+}
+.explore p small span a{
+    color: #007185;
+}
+.see-all-results{
+    background-color: #eee;
+    color: #007185;
+    border-radius: 6px;
 }
 
 footer .back{
@@ -145,7 +219,7 @@ footer .get .small{
     color: rgba(250, 250, 250, 0.836);
     text-decoration: none;
     font-size: 10px;
-    margin-left: 5px;
+    margin-left: apx;
 }
 footer .last-footer{
     background-color: #131A22;
@@ -162,4 +236,48 @@ footer .last-footer p .fw-bolds{
 footer .last-footer p small{
     font-size: 8px;
     color: rgba(250, 250, 250, 0.644);
+}
+footer{
+    overflow-x: hidden;
+}
+
+
+/* media queries */
+@media screen and (max-width: 1569px){
+    .account{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .map-icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 1199.98px){
+    .input .input-group{
+        width: 350px;    
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .bottom-nav small{
+        display: none;
+        border: none;
+    }
+    
+    .input .input-group{
+        width: 200px;
+    }
+
+}
+@media screen and (max-width: 798px) {
+    .input .input-group{
+        display: none;
+    }
+}
+@media screen and (max-width: 660px) {
+    .input form{
+        display: none;
+    }
 }
